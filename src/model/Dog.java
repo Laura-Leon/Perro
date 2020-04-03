@@ -34,6 +34,14 @@ public void drawText(int posY,PApplet app) {
 	app.text (this.raza, posX + 220, posY);
 	app.text("BIRTH DATE", 460, 45);
 	app.text (this.date, posX+ 400, posY);
+	
+	
+	
+	app.text("Key i Para Nombre", 50, 600);
+	app.text("Key p Para ID", 50,615);
+	app.text("Key o Para Edad", 50, 630);
+	app.text("Key u Para Raza", 50, 645);
+	app.text("Key y Para Fecha", 50, 660);
 
 	
 }
@@ -70,6 +78,12 @@ public void setName(String name) {
 }
 public String getRaza() {
 	return raza;
+}
+public String getDate() {
+	return date;
+}
+public void setDate(String date) {
+	this.date = date;
 }
 public void setRaza(String raza) {
 	this.raza = raza;

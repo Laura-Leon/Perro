@@ -60,20 +60,25 @@ public class Logic {
 			break;
 		case 'o':
 			Collections.sort(listDog, new DogAge()) ;
-			System.out.println("putas");
+			System.out.println("age");
 			break;
 			
 			
 		
 		case 'i':
 			Collections.sort(listDog, new DogName()) ;
-			System.out.println("putes");
+			System.out.println("name");
 			break;
 			
 		case 'u':
 			Collections.sort(listDog, new DogRaza()) ;
-			System.out.println("putus");
+			System.out.println("raza");
 			break;
+		case 'y':
+			Collections.sort(listDog, new DogBirth()) ;
+			System.out.println("birth");
+			break;
+		
 		}
 		
 	}
